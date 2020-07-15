@@ -10,7 +10,7 @@ import Card from "@material-ui/core/Card";
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    background: "linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%)",
+    background: " linear-gradient(to right, #7f00ff, #e100ff)",
     border: 0,
     fontSize: 16,
     borderRadius: 3,

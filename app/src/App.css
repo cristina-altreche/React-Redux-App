@@ -3,10 +3,13 @@ body {
   margin: 0 auto;
   padding: 0;
   box-sizing: border-box;
+  background-color: #f7f7f7;
 }
 
 body {
-  background-color: black;
+  background: url(./img/tclol.png);
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .container {
@@ -18,14 +21,9 @@ body {
   flex-direction: column;
 }
 
-.nextBtn {
-  color: yellow;
-}
-
 .card {
   text-align: center;
   padding: 40px;
   margin-bottom: 20px;
-  background-color: black;
-  color: white;
+  max-width: 600px;
 }
