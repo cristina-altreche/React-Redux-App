@@ -1,0 +1,29 @@
+html,
+body {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f7f7f7;
+}
+
+body {
+  background: url(./img/tclol.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card {
+  text-align: center;
+  padding: 40px;
+  margin-bottom: 20px;
+  max-width: 600px;
+}
